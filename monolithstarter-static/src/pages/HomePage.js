@@ -5,7 +5,7 @@ class HomePage extends Component {
   render() {
     return (
         <div className="home-page">
-          <Link to="/hello">Click to see hello message</Link>
+          <Link to="/csvdupl">Click to see duplicates and nonduplicates</Link>
         </div>
     );
   }

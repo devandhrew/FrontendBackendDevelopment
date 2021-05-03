@@ -18,8 +18,8 @@ describe('something', () => {
     enzymeWrapper.unmount();
   });
 
-  test('should display Hello component', () => {
-    expect(enzymeWrapper.find('div').at(0)).toHaveText('No message from server');
-  });
+  // test('should display Hello component', () => {
+  //   expect(enzymeWrapper.find('div').at(0)).toHaveText('No message from server');
+  // });
 
 });

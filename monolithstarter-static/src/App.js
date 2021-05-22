@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <Switch>
         <Route key="home" path="/" exact={true} component={HomePage} />
-        <Route key="hello" path="/hello" exact={true} component={HelloPage} />
+        <Route key="hello" path="/csvdupl" exact={true} component={HelloPage} />
       </Switch>
     );
   }
